@@ -1,0 +1,18 @@
+<table border="1" cellpadding="5">
+  <tr>
+    <th>nameCity</th>
+    <th>acreage</th>
+    <th>population</th>
+    <th>gDP</th>
+    <th>description</th>
+    <th>area</th>
+  </tr>
+  <tr *ngFor="let c of citys">
+    <td>{{c.nameCity}}</td>
+    <td>{{c.acreage}}</td>
+    <td>{{c.population}}</td>
+    <td>{{c.gDP}}</td>
+    <td>{{c.description}}</td>
+    <td>{{c.test2?.name}}</td>
+  </tr>
+</table>
